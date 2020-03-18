@@ -156,15 +156,14 @@ body{
 }
 
 .client .logo{
-    display: inline-block;
-    height: 150px;
-    text-align: center;
-    margin-left: 120px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20%;
 }
 
 
 .client .logo img{
-    margin-right: 60px;
+    
 }
     
 
