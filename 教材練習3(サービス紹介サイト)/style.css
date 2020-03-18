@@ -1,0 +1,204 @@
+@charset "UTF-8";
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+
+    min-width: 1000px;
+
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    font-weight: 500;
+    line-height: 2;
+    color: #333;
+}
+
+
+
+.main{
+    background-image: url(img/bg-main_visual.jpg);
+    background-size: cover;
+    height: 409.06px;
+
+    position: relative;
+
+    margin: 0;
+    padding: 0;
+}
+
+.main h1{
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
+    z-index: 1;
+
+    height: 68px;
+
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.intro{
+    background-color: #fffff3;
+    margin: 0;
+}
+
+.intro .text{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.intro h2{
+    margin: 0 0 50px 0;
+    padding: 0;
+
+    line-height: 32px;
+    font-size: 3.2rem;
+}
+
+.intro p{
+    line-height: 2;
+    font-size: 1.6rem;
+
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+.feature{
+    background-image: url(img/bg-content.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    padding: 100px 0;
+}
+
+.feature h2{
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 0;
+    font-size: 3.2rem;
+    line-height: 1.0;
+    text-align: center;
+}
+
+.feature .list{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.feature ul{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 0;
+    padding: 50px;
+}
+
+.feature li{
+    display: flex;
+}
+
+.feature img{
+    flex: 1;
+}
+
+.feature .text{
+    flex: 1;
+    background-color: #fffff3;
+    padding: 40px 20px;
+}
+
+.feature .text h2{
+    font-size: 2rem;
+    color: black;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.feature .text p{
+    font-size: 1.6rem;
+    line-height: 1.75;
+    margin: 0;
+}
+
+
+
+
+.client{
+    background-color: #fffff3;
+    padding: 100px 0;
+
+}
+
+.client .text{
+    text-align: center;
+}
+
+.client h2{
+    font-size: 3.2rem;
+    margin: 0 0 50px 0;
+    line-height: 1;
+}
+
+.client p{
+    font-size: 1.6rem;
+    line-height: 2.0;
+    margin: 0 0 70px 0;
+}
+
+.client .logo{
+    display: inline-block;
+    height: 150px;
+    text-align: center;
+    margin-left: 120px;
+}
+
+
+.client .logo img{
+    margin-right: 60px;
+}
+    
+
+
+
+footer{
+    display: block;
+    height: 60px;
+    margin: 0;
+
+    position: relative;
+
+    background-color: black;
+    color: white;
+
+    text-align: center;
+}
+
+footer p{
+    font-size: 12px;
+    line-height: 12px;
+    margin: 0;
+    padding: 24px 20px;
+}
+
+footer navi{
+    position: absolute;
+    top: 30%;
+    right: 0;
+}
+
+footer navi a{
+    color: white;
+    font-size: 12px;
+
+    margin-right: 18px;
+}
